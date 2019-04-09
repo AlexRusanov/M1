@@ -85,6 +85,14 @@
     color: black;
 }
 
+.nav-bar-link:hover {
+    color: #f1ad1d;
+}
+
+.nav-bar-link:hover > .arrow {
+    border-top-color: #f1ad1d;
+}
+
 .arrow {
     display: inline-block;
     border: 5px solid transparent;
